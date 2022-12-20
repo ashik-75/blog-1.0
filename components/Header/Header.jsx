@@ -32,7 +32,7 @@ function Header() {
         <MobileMenu />
         <button
           onClick={() => setDarkMode((prev) => !prev)}
-          className="transition duration-200 border p-3 rounded-full shadow border-slate-100"
+          className="transition duration-200 border p-2 rounded-full shadow border-slate-100"
         >
           {darkMode ? (
             <MoonIcon className="w-5 h-5" />
