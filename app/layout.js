@@ -1,4 +1,5 @@
 import { Poppins } from "@next/font/google";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "../styles/globals.css";
 
@@ -10,9 +11,12 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <head />
-      <body className={`${poppins.className}`}>
-        <Header />
-        {children}
+      <body className={`bg-zinc-800/10 ${poppins.className}`}>
+        <div className="bg-white max-w-7xl mx-auto lg:px-10">
+          <Header />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
