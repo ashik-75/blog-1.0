@@ -9,7 +9,7 @@ function Header() {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className="w-full  items-center flex justify-between px-10 py-5">
-      <div className="w-14 h-14 ring-2 ring-offset-2 ring-pink-300 rounded-full">
+      <div className="w-10 h-10 md:w-14 md:h-14 ring-2 ring-offset-2 ring-pink-300 rounded-full">
         <img
           src="man.png"
           className="w-full h-full object-cover object-top rounded-full"
